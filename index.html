@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissor</title>
+</head>
+<body>
+    <header>
+   <h1>Rock Paper Scissors</h1>
+    </header>
+    <div class="score-board">
+       <div id="user-label" class="badge">user</div> 
+       <div id="computer-label" class="badge">comp</div>
+       <span id="user-score">0</span>:<span id="computer-score">0</span>
+    </div>
+    <div class="result">
+        <p>Challenge the Computer</p>
+    </div>
+    <div class="choices">
+      <div class="choice" id="r">
+        <button type="button" class="btn-lg btn btn-outline-dark">ROCK</button>
+      </div>  
+    <div class="choice" id="p">
+        <button type="button" class="btn-lg btn btn-outline-dark">PAPER</button>
+    </div>
+    <div class="choice" id="s">
+        <button type="button" class="btn-lg btn btn-outline-dark">SCISSORS</button>
+    </div>
+    </div>
+    <p id="action-message">Make your move.</p>
+    <div class="footer">
+    <h2 class="bottom-choice comp"></h2>
+    <h2 class="bottom-choice user"></h2>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
